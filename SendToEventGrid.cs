@@ -24,7 +24,7 @@ namespace TollBooth
 
         public async Task SendLicensePlateData(LicensePlateData data)
         {
-            // Will send to one of two routes, depending on success.
+            // Will send to one of two routes, depending on success.test
             // Event listeners will filter and act on events they need to
             // process (save to database, move to manual checkup queue, etc.)
             if (data.LicensePlateFound)
